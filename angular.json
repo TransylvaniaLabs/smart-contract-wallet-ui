@@ -118,5 +118,10 @@
       }
     }
   },
-  "defaultProject": "zil-wallet"
+  "defaultProject": "zil-wallet",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
