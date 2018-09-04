@@ -1,0 +1,14 @@
+// VARS
+//
+$button__bg: #36bddd;
+
+.btn-outline-primary {
+  border-color: #fff;
+  color: #fff;
+
+  &:hover {
+    color: $button__bg;
+    background: #fff;
+    border-color: #fff;
+  }
+}

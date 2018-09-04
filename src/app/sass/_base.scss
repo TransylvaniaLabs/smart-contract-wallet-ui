@@ -5,6 +5,13 @@ $gradient__to: #6478db;
 
 // BASE
 //
+html,
+body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
 body {
   @include linear-gradient($gradient__from, $gradient__to);
 }
