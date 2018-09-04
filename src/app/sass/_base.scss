@@ -1,0 +1,10 @@
+// VARS
+//
+$gradient__from: #36bddd;
+$gradient__to: #6478db;
+
+// BASE
+//
+body {
+  @include linear-gradient($gradient__from, $gradient__to);
+}
