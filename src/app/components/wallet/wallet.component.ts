@@ -8,23 +8,23 @@ import {Component, OnInit} from '@angular/core';
 export class WalletComponent implements OnInit {
 
   public otherValue = 1000;
-  public winningsValue = 100;
+  public winningsValue = 570;
 
   public chartEntries = [
     {
-      'name': 1,
-      'value': 45
+      'name': 'Earnings - Missions',
+      'value': 570
     },
     {
-      'name': 2,
-      'value': 36
+      'name': 'Earnings - Other',
+      'value': 1000
     },
     {
-      'name': 3,
+      'name': 'Spendings - Missions',
       'value': 120
     },
     {
-      'name': 4,
+      'name': 'Spendings - Other',
       'value': 16
     }
   ];
