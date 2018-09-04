@@ -15,3 +15,12 @@ body {
 body {
   @include linear-gradient($gradient__from, $gradient__to);
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
+}

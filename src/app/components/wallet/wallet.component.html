@@ -1,0 +1,49 @@
+<h2 class="text-center">Owner wallet</h2>
+
+<div class="container">
+  <div class="row h-100">
+    <div class="col-md-6">
+      <h3 class="app__total"><span>Available funds</span>: {{winningsValue + otherValue}} tokesn</h3>
+
+
+      <div class="card text-center">
+        <div class="card-header">
+          <h3>Mission winnings</h3>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">{{winningsValue}} tokens</p>
+        </div>
+        <div class="card-footer text-muted">
+          <small>This can be used in ISC exchange at a price of $1/Token.</small>
+        </div>
+      </div>
+
+      <div class="card text-center">
+        <div class="card-header">
+          <h3>Other source</h3>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Other sources</h5>
+          <p class="card-text">{{otherValue}} tokens</p>
+        </div>
+        <div class="card-footer text-muted">
+          <small>This can be used in External exchanges.</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="app__chart">
+        <ngx-charts-bar-vertical
+          [results]="chartEntries"
+          [xAxis]="false"
+          [yAxis]="true"
+          [showXAxisLabel]="false"
+          [showYAxisLabel]="false"
+          [xAxisLabel]="false"
+          [tooltipDisabled]="true"></ngx-charts-bar-vertical>
+      </div>
+    </div>
+  </div>
+</div>

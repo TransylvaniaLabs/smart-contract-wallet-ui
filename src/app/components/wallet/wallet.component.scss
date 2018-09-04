@@ -1,0 +1,35 @@
+:host {
+  display: block;
+  padding: 100px 0 0;
+
+  h2 {
+    margin: 0 0 60px;
+    color: #fff;
+    font-size:  52px;
+  }
+
+  .card {
+    margin: 0 0 30px;
+  }
+
+  .table {
+    color: #fff;
+  }
+
+  .app__total {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 0 15px;
+    margin: 0 0 40px;
+    position: relative;
+    border-bottom: 1px solid #fff;
+  }
+
+  .app__chart {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+  }
+}
