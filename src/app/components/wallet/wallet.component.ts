@@ -21,7 +21,7 @@ export class WalletComponent implements OnInit {
     },
     {
       'name': 3,
-      'value': 26
+      'value': 120
     },
     {
       'name': 4,

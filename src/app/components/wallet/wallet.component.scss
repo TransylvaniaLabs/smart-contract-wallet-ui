@@ -1,11 +1,11 @@
 :host {
   display: block;
-  padding: 100px 0 0;
+  padding: 150px 0 0;
 
   h2 {
     margin: 0 0 60px;
     color: #fff;
-    font-size:  52px;
+    font-size: 52px;
   }
 
   .card {
@@ -31,5 +31,22 @@
     position: relative;
     height: 100%;
     overflow: hidden;
+    background: #fff;
+    padding: 10px;
+    padding-left: 0;
+    min-height: 480px;
   }
+}
+
+.transylvanialabs-logo {
+  display: inline-block;
+  width: 133px;
+  height: 78px;
+  background: url(/assets/logo.png) no-repeat;
+  -webkit-background-size: 133px 78px;
+  background-size: 133px 78px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
